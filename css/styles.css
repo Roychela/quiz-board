@@ -13,9 +13,19 @@ fieldset {
   border:1px solid green;
 } */
 
+body {
+  font-size: 75%;
+}
+
 
 .question {
   width: 450px;
   margin: 0 auto;
   margin-bottom: 10px;
+}
+
+.jumbotron {
+  display: inline-block;
+  padding: 5px;
+  /* margin-bottom: 2rem; */
 }
