@@ -7,7 +7,6 @@ var score = 0;
 var complete = 0;
 var calculate = function(){
   for (i = 1; i <= 5; i++) {
-
     var response = $("input:radio[name=js"+i+"]:checked").val();
     arrayUser.push(response);
     if (arrayUser[i-1] == "1") {
@@ -32,19 +31,24 @@ $(document).ready(function(){
       message = "Your score is:";
       $("#display").text(score);
       if (score <= 20) {
-        remark = "Bad";
+        // remark = "Bad";
+        $("#remark").append("<img src='images/bad.png' alt=''>");
       } else if (score <= 60) {
-        remark = "Average";
+        // remark = "Average";
+        $("#remark").append("<img src='images/average.png' alt=''>");
       } else if (score <= 80) {
-        remark = "Good";
+        // remark = "Good";
+        $("#remark").append("<img src='images/good.png' alt=''>");
       } else {
-        remark ="Excellent";
+        // remark ="Excellent";
+        $("#remark").append("<img src='images/excellent.png' alt=''>");
       }
     } else {
       message = "Please answer all the questions and submit again!";
     }
     $("#message").text(message);
-    $("#remark").text(remark);
+    // $("#remark").text(remark);
+    $(".question").remove();
 
   }) // end submit
 
