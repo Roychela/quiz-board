@@ -23,3 +23,7 @@ $(document).ready(function(){
   }) // end submit
 
 }) //END USER INTERFACE
+
+function reload() {
+  location.reload();
+}
