@@ -14,3 +14,12 @@ var calculate = function(){
   }
 }
 // END BUSINESS LOGIC
+
+// USER INTERFACE
+$(document).ready(function(){
+  $("form").submit(function(event){
+    calculate();
+    $("#display").text(score);
+  }) // end submit
+
+}) //END USER INTERFACE
