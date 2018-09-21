@@ -15,93 +15,97 @@
            </div>
 
            <form>
-             <div class="question"> <!-- question 1 -->
-               <label for="jsone">1. What is JavaScript?</label>
+             <div class="question card"> <!-- question 1 -->
+               <label for="js1">1. What is JavaScript?</label>
                <div>
-                 <input type="radio" id="framework" name="jsone" value="9">
+                 <input type="radio" id="framework" name="js1" value="9">
                  <label for="framework">A framework</label>
                </div>
                <div>
-                 <input type="radio" id="language" name="jsone" value="1">
+                 <input type="radio" id="language" name="js1" value="1">
                  <label for="language">A programming language</label>
                </div>
                <div>
-                 <input type="radio" id="library" name="jsone" value="9">
+                 <input type="radio" id="library" name="js1" value="9">
                  <label for="library">A library</label>
                </div>
              </div> <!-- end question 1 -->
 
-             <div class="question"> <!-- question 2 -->
-               <label for="jstwo">2. Inside which HTML element do we put the JavaScript?</label>
+             <div class="question card"> <!-- question 2 -->
+               <label for="js2">2. Inside which HTML element do we put the JavaScript?</label>
                <div>
-                 <input type="radio" id="script" name="jstwo" value="1">
+                 <input type="radio" id="script" name="js2" value="1">
                  <label for="script">&lt;script&gt;</label>
                </div>
                <div>
-                 <input type="radio" id="javascript" name="jstwo" value="9">
+                 <input type="radio" id="javascript" name="js2" value="9">
                  <label for="javascript">&lt;javascript&gt;</label>
                </div>
                <div>
-                 <input type="radio" id="scripting" name="jstwo" value="9">
+                 <input type="radio" id="scripting" name="js2" value="9">
                  <label for="scripting">&lt;scripting&gt;</label>
                </div>
                <div>
-                 <input type="radio" id="js" name="jstwo" value="9">
+                 <input type="radio" id="js" name="js2" value="9">
                  <label for="js">&lt;js&gt;</label>
                </div>
              </div> <!-- end question 2 -->
 
-             <div class="question"> <!-- question 3 -->
-               <label for="jsthree">3. Where is the correct place to insert a JavaScript?</label>
+             <div class="question card"> <!-- question 3 -->
+               <label for="js3">3. Where is the correct place to insert a JavaScript?</label>
                <div>
-                 <input type="radio" id="head-section" name="jsthree" value="9">
+                 <input type="radio" id="head-section" name="js3" value="9">
                  <label for="head-section">The &lt;head&gt; section</label>
                </div>
                <div>
-                 <input type="radio" id="both-section" name="jsthree" value="1">
+                 <input type="radio" id="both-section" name="js3" value="1">
                  <label for="both-section">Both the &lt;head&gt; section and the &lt;body&gt; section are correct</label>
                </div>
                <div>
-                 <input type="radio" id="body-section" name="jsthree" value="9">
+                 <input type="radio" id="body-section" name="js3" value="9">
                  <label for="body-section">The &lt;body&gt; section</label>
                </div>
              </div> <!-- end question 3 -->
 
-             <div class="question"> <!-- question 4 -->
-               <label for="jsfour">4. How do you call a function named "myFunction"?</label>
+             <div class="question card"> <!-- question 4 -->
+               <label for="js4">4. How do you call a function named "myFunction"?</label>
                <div>
-                 <input type="radio" id="function-one" name="jsfour" value="1">
+                 <input type="radio" id="function-one" name="js4" value="1">
                  <label for="function-one">myFunction();</label>
                </div>
                <div>
-                 <input type="radio" id="function-two" name="jsfour" value="9">
+                 <input type="radio" id="function-two" name="js4" value="9">
                  <label for="function-two">call myFunction();</label>
                </div>
                <div>
-                 <input type="radio" id="function-three" name="jsfour" value="9">
+                 <input type="radio" id="function-three" name="js4" value="9">
                  <label for="function-three">call function myFunction();</label>
                </div>
              </div> <!-- end question 4 -->
 
-             <div class="question"> <!-- question 5 -->
-               <label for="jsfive">5. What is the correct way to write a JavaScript array?</label>
+             <div class="question card"> <!-- question 5 -->
+               <label for="js5">5. What is the correct way to write a JavaScript array?</label>
                <div>
-                 <input type="radio" id="array-one" name="jsfive" value="9">
+                 <input type="radio" id="array-one" name="js5" value="9">
                  <label for="array-one">var colors = "red", "green", "blue";</label>
                </div>
                <div>
-                 <input type="radio" id="array-two" name="jsfive" value="9">
+                 <input type="radio" id="array-two" name="js5" value="9">
                  <label for="array-two">var colors = (1:"red", 2:"green", 3:"blue");</label>
                </div>
                <div>
-                 <input type="radio" id="array-three" name="jsfive" value="1">
+                 <input type="radio" id="array-three" name="js5" value="1">
                  <label for="array-three">var colors = ["red", "green", "blue"];</label>
                </div>
              </div> <!-- end question 5 -->
 
 
-             <button type="submit" name="button">SCORE!</button>
+             <button id="score" type="submit" name="button">SCORE!</button>
+             <button type="button" name="button" onclick="reload();">RELOAD</button>
            </form>
+
+           <div id="display">     </div>
+
          </div>
          </body>
        </html>

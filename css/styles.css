@@ -12,3 +12,10 @@
 fieldset {
   border:1px solid green;
 } */
+
+
+.question {
+  width: 450px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
