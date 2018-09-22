@@ -17,21 +17,24 @@ body {
   /* font-size: 75%; */
   background-color: black;
   color: white;
+  font-family: 'Inconsolata', monospace;
 }
 
 
-.question {
-  width: 450px;
+.card {
+  width: 500px;
   margin: 0 auto;
   margin-bottom: 10px;
   background-color: black;
-  border-color: white
+  border-color: white;
+
 }
 
 .jumbotron {
   display: inline-block;
   padding: 5px;
   color: black;
+  font-family: 'Audiowide', cursive;
   /* margin-bottom: 2rem; */
 }
 
@@ -40,8 +43,18 @@ img {
   width: 100px;
 }
 
-.question > label {
-  display: inline;
+.card > label {
+  float: right;
+  /* display: inline; */
   border: 2px solid white;
-  margin:;
+}
+
+input {
+  margin-left: 5px;
+}
+
+.your-score {
+  text-align: center;
+  font-weight: bold;
+  font-size: 150%;
 }
