@@ -32,12 +32,12 @@ Clone to your computer using Terminal
 ## BDD Specifications
 | Behavior                         |  Input Example |  Output  Example|
 |----------                         |:-------------: |------:          |
-| User have 0 correct answer   | "1.A framework", "2.<scripting>",  "3.The <head>", "4.call myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"     | Your score is : 0 :( |
-| User have 1 correct answer   | "1.A framework", "2.<script>",  "3.The <head>", "4.call myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"     | Your score is : 20 :( |
-| User have 2 correct answers   | "1.A framework", "2.<script>",  "3.Both", "4.call myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"     | Your score is : 40 :| |
-| User have 3 correct answers   | "1.A framework", "2.<script>",  "3.Both", "4.myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"     | Your score is : 60 :| |
-| User have 4 correct answers   | "1.A Progrmming language", "2.<script>",  "3.Both", "4.myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"     | Your score is : 80 :) |
-| User have 5 correct answers   | "1.A Progrmming language", "2.<script>",  "3.Both", "4.myFunction();", "5.var colors = ["red", "green", "blue"];"     | Your score is : 100 :D |
+| User have 0 correct answer   | "1.A framework", "2.<scripting>",  "3.The <head>", "4.call myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"     | Your score is : 0 :weary: |
+| User have 1 correct answer   | "1.A framework", "2.<script>",  "3.The <head>", "4.call myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"     | Your score is : 20 ![Bad](/images/bad.png) |
+| User have 2 correct answers   | "1.A framework", "2.<script>",  "3.Both", "4.call myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"     | Your score is : 40 :expressionless: |
+| User have 3 correct answers   | "1.A framework", "2.<script>",  "3.Both", "4.myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"     | Your score is : 60 :expressionless: |
+| User have 4 correct answers   | "1.A Progrmming language", "2.<script>",  "3.Both", "4.myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"     | Your score is : 80 :blush: |
+| User have 5 correct answers   | "1.A Progrmming language", "2.<script>",  "3.Both", "4.myFunction();", "5.var colors = ["red", "green", "blue"];"     | Your score is : 100 :sunglasses: |
 | User leaves one field or more empty  |"1.A framework", "2.<script>",  "3.", "4.myFunction();", "5."  | Re-submit|
 | User doesn't input anything  | "1.", "2.", "3.",  "4.", "5." | Re-submit|
 
