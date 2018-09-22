@@ -14,7 +14,9 @@ fieldset {
 } */
 
 body {
-  font-size: 75%;
+  /* font-size: 75%; */
+  background-color: black;
+  color: white;
 }
 
 
@@ -22,15 +24,24 @@ body {
   width: 450px;
   margin: 0 auto;
   margin-bottom: 10px;
+  background-color: black;
+  border-color: white
 }
 
 .jumbotron {
   display: inline-block;
   padding: 5px;
+  color: black;
   /* margin-bottom: 2rem; */
 }
 
 img {
   height: 100px;
   width: 100px;
+}
+
+.question>label {
+  display: inline;
+  border: 2px solid white;
+  margin:;
 }
