@@ -33,7 +33,7 @@ Clone to your computer using Terminal
 | Behavior                         |  Input Example |  Output  Example|
 |----------                         |:-------------: |------:          |
 | User have 0 correct answer   | "1.A framework", "2.<scripting>",  "3.The <head>", "4.call myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"     | Your score is : 0 :weary: |
-| User have 1 correct answer   | "1.A framework", "2.<script>",  "3.The <head>", "4.call myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"     | Your score is : 20 ![Bad](/images/bad.png) |
+| User have 1 correct answer   | "1.A framework", "2.<script>",  "3.The <head>", "4.call myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"     | Your score is : 20 :weary:) |
 | User have 2 correct answers   | "1.A framework", "2.<script>",  "3.Both", "4.call myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"     | Your score is : 40 :expressionless: |
 | User have 3 correct answers   | "1.A framework", "2.<script>",  "3.Both", "4.myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"     | Your score is : 60 :expressionless: |
 | User have 4 correct answers   | "1.A Progrmming language", "2.<script>",  "3.Both", "4.myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"     | Your score is : 80 :blush: |
