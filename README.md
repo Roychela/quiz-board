@@ -32,10 +32,12 @@ Clone to your computer using Terminal
 ## BDD Specifications
 | Behavior                         |  Input Example |  Output  Example|
 |----------                         |:-------------: |------:          |
-| User inputs 3 identical lengths   | 12, 12 ,12     | EQUILATERAL |
-| User inputs 3 different lengths   | 15, 12, 10     | SCALENE     |
-| User input 2 identical lengths    | 10, 14, 10     | ISOSCELES   |
-| The sum of two lengths is less than or equal the third         | 1, 2, 3 | NOT a triangle |
+| User have 0 correct answer   | "1.A framework", "2.<scripting>",  "3.The <head>", "4.call myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"     | Your score is : 0 :( |
+| User have 1 correct answer   | "1.A framework", "2.<script>",  "3.The <head>", "4.call myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"     | Your score is : 20 :( |
+| User have 2 correct answers   | "1.A framework", "2.<script>",  "3.Both", "4.call myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"     | Your score is : 40 :| |
+| User have 3 correct answers   | "1.A framework", "2.<script>",  "3.Both", "4.myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"     | Your score is : 60 :| |
+| User have 4 correct answers   | "1.A Progrmming language", "2.<script>",  "3.Both", "4.myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"     | Your score is : 80 :) |
+| User have 5 correct answers   | "1.A Progrmming language", "2.<script>",  "3.Both", "4.myFunction();", "5.var colors = ["red", "green", "blue"];"     | Your score is : 100 :D |
 | User leaves one field or more empty  |"1.A framework", "2.<script>",  "3.", "4.myFunction();", "5."  | Re-submit|
 | User doesn't input anything  | "1.", "2.", "3.",  "4.", "5." | Re-submit|
 
