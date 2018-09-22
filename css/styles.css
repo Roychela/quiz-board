@@ -40,7 +40,7 @@ img {
   width: 100px;
 }
 
-.question>label {
+.question > label {
   display: inline;
   border: 2px solid white;
   margin:;
