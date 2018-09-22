@@ -26,7 +26,7 @@ This app asks the user to take a test on JavaScript by answering questions and t
 https://nignanthomas.github.io/quiz-board/
 
 ## Installation Requirements
-Clone to your computer using Terminal
+Clone to your computer using Terminal </br>
 `$ git clone https://github.com/nignanthomas/quiz-board/`
 
 ## BDD Specifications
@@ -42,7 +42,8 @@ Clone to your computer using Terminal
 | User doesn't input anything  | "1.", "2.", "3.",  "4.", "5." | Re-submit|
 
 ## Support and contact details
-Thomas NIGNAN https://github.com/nignanthomas/
+Thomas NIGNAN </br>
+https://github.com/nignanthomas/
 
 ### License
 This project is under MIT License.
