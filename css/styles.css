@@ -22,6 +22,8 @@ body {
   padding: 5px;
   color: black;
   font-family: 'Audiowide', cursive;
+  width: 700px;
+  margin-top: 20px;
   /* margin-bottom: 2rem; */
 }
 
@@ -55,9 +57,11 @@ input {
   margin-top: 15px;
 }
 
-/* .copyright {
-
-} */
+.copyright {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+}
 
 .copyname {
   font-family: 'Satisfy', cursive;
