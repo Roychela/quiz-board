@@ -48,7 +48,7 @@ $(document).ready(function(){
     }
     $("#message").text(message);
     // $("#remark").text(remark);
-    $(".question").remove();
+    $(".carousel").remove();
 
   }) // end submit
 
