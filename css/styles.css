@@ -54,3 +54,17 @@ input {
   position: relative;
   margin-top: 15px;
 }
+
+/* .copyright {
+
+} */
+
+.copyname {
+  font-family: 'Satisfy', cursive;
+  font-weight: bold;
+}
+
+p > img {
+  height: 30px;
+  width: 30px;
+}
