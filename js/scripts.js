@@ -1,6 +1,5 @@
 // for radio buttons; value="1" for correct, value="9" for wrong
 
-
 //BUSINESS LOGIC : DRY CODE
 var arrayUser = [];
 var score = 0;
@@ -16,9 +15,7 @@ var calculate = function(){
       complete += 1
     }
   } // end for
-
-}
-// END BUSINESS LOGIC
+}// END BUSINESS LOGIC
 
 // USER INTERFACE
 $(document).ready(function(){
@@ -29,31 +26,30 @@ $(document).ready(function(){
     var remark =""
     if (complete === 5) {
       message = "Your score is:";
-      $("#display").text(score);
+      $("#display").text(score+"%").fadeIn();
       if (score <= 20) {
         // remark = "Bad";
-        $("#remark").append("<img src='images/bad.png' alt=''>");
+        $("#remark").append("<img src='images/bad.png' alt='Bad'>");
       } else if (score <= 60) {
         // remark = "Average";
-        $("#remark").append("<img src='images/average.png' alt=''>");
+        $("#remark").append("<img src='images/average.png' alt='Average'>");
       } else if (score <= 80) {
         // remark = "Good";
-        $("#remark").append("<img src='images/good.png' alt=''>");
+        $("#remark").append("<img src='images/good.png' alt='Good'>");
       } else {
         // remark ="Excellent";
-        $("#remark").append("<img src='images/excellent.png' alt=''>");
+        $("#remark").append("<img src='images/excellent.png' alt='Excellent!'>");
       }
     } else {
       message = "Please answer all the questions and submit again!";
     }
     $("#message").text(message);
-    // $("#remark").text(remark);
     $(".carousel").remove();
-
+    $("button.bg-success").fadeOut("slow");
+    $("div.your-score").slideUp(50);
+    $("div.your-score").slideDown(1500);
   }) // end submit
-
 }) //END USER INTERFACE
-
 function reload() {
   location.reload();
 }

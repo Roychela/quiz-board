@@ -56,6 +56,11 @@ input {
   position: relative;
   margin-top: 15px;
 }
+.carousel-control-prev,
+.carousel-control-next {
+  color: green;
+}
+
 
 .copyright {
   display: flex;
