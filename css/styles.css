@@ -6,7 +6,6 @@ body {
   height: 100vh;
 }
 
-
 .card {
   width: 500px;
   margin: 0 auto;
@@ -24,7 +23,6 @@ body {
   font-family: 'Audiowide', cursive;
   width: 700px;
   margin-top: 20px;
-  /* margin-bottom: 2rem; */
 }
 
 img {
@@ -45,7 +43,6 @@ input {
   font-weight: bold;
   font-size: 150%;
 }
-
 
 .quiz-buttons {
   display: flex;
