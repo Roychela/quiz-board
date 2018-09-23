@@ -44,8 +44,6 @@ img {
 }
 
 .card > label {
-  float: right;
-  /* display: inline; */
   border: 2px solid white;
 }
 
@@ -57,4 +55,9 @@ input {
   text-align: center;
   font-weight: bold;
   font-size: 150%;
+}
+
+
+.quiz-buttons {
+  margin: 0 auto;
 }
