@@ -1,8 +1,9 @@
 body {
-  /* font-size: 75%; */
+  font-size: 125%;
   background-color: black;
   color: white;
   font-family: 'Inconsolata', monospace;
+  height: 100vh;
 }
 
 
@@ -12,6 +13,7 @@ body {
   margin-bottom: 10px;
   background-color: black;
   border-color: white;
+  border-width: thick;
 
 }
 
@@ -46,4 +48,9 @@ input {
 .quiz-buttons {
   display: flex;
   justify-content: center;
+}
+
+.carousel-indicators {
+  position: relative;
+  margin-top: 15px;
 }

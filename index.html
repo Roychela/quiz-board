@@ -20,13 +20,7 @@
            <form>
 
              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-              </ol>
+            
               <div class="carousel-inner">
                 <div class="carousel-item active"> <!-- slide question 1 -->
                   <div class="d-block w-50 question card "> <!-- question 1 -->
@@ -77,7 +71,7 @@
                     </div>
                     <div>
                       <input type="radio" id="both-section" name="js3" value="1">
-                      <label for="both-section">Both the &lt;head&gt; section and the &lt;body&gt; section are correct</label>
+                      <label for="both-section">Both the &lt;head&gt; and the &lt;body&gt; are correct</label>
                     </div>
                     <div>
                       <input type="radio" id="body-section" name="js3" value="9">
@@ -125,6 +119,14 @@
                 </div> <!-- end slide question 5 -->
               </div> <!-- end carousel inner -->
 
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+              </ol>
+
               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
@@ -136,8 +138,8 @@
             </div> <!-- end carousel -->
 
             <div class="quiz-buttons">
-              <button type="submit" name="button">SCORE!</button>
-              <button type="button" name="button" onclick="reload();">RELOAD</button>
+              <button class="bg-success" type="submit" name="button">SCORE!</button>
+              <button class="bg-info" type="button" name="button" onclick="reload();">RELOAD</button>
             </div>
 
 
