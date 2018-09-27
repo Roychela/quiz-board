@@ -3,7 +3,7 @@ body {
   background-color: black;
   color: white;
   font-family: 'Inconsolata', monospace;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .card {
@@ -73,4 +73,31 @@ input {
 p > img {
   height: 30px;
   width: 30px;
+}
+
+
+/* responsive design */
+@media (max-width: 900px) {
+  .container {
+    width: 500px;
+  }
+  .jumbotron {
+    width: 400px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 400px;
+  }
+  .jumbotron {
+    width: 400px;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    width: 250px;
+  }
+  .jumbotron {
+    width: 400px;
+  }
 }

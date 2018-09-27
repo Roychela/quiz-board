@@ -8,7 +8,6 @@
       <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
       <link href="css/styles.css" rel="stylesheet" type="text/css">
-      <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
       <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
       <script type="text/javascript" src="js/bootstrap.js"></script>
       <script src="js/scripts.js"></script>
@@ -33,15 +32,15 @@
                   <div class="d-block w-50 question card "> <!-- question 1 -->
                     <label for="js1">1. What is JavaScript?</label>
                     <div>
-                      <input type="radio" id="framework" name="js1" value="9">
+                      <input type="radio" id="framework" name="js1" value="0">
                       <label for="framework">A framework</label>
                     </div>
                     <div>
-                      <input type="radio" id="language" name="js1" value="1">
+                      <input type="radio" id="language" name="js1" value="20">
                       <label for="language">A programming language</label>
                     </div>
                     <div>
-                      <input type="radio" id="library" name="js1" value="9">
+                      <input type="radio" id="library" name="js1" value="0">
                       <label for="library">A library</label>
                     </div>
                   </div> <!-- end question 1 -->
@@ -51,19 +50,19 @@
                   <div class="question card d-block w-50"> <!-- question 2 -->
                     <label for="js2">2. Inside which HTML element do we put the JavaScript?</label>
                     <div>
-                      <input type="radio" id="script" name="js2" value="1">
+                      <input type="radio" id="script" name="js2" value="20">
                       <label for="script">&lt;script&gt;</label>
                     </div>
                     <div>
-                      <input type="radio" id="javascript" name="js2" value="9">
+                      <input type="radio" id="javascript" name="js2" value="0">
                       <label for="javascript">&lt;javascript&gt;</label>
                     </div>
                     <div>
-                      <input type="radio" id="scripting" name="js2" value="9">
+                      <input type="radio" id="scripting" name="js2" value="0">
                       <label for="scripting">&lt;scripting&gt;</label>
                     </div>
                     <div>
-                      <input type="radio" id="js" name="js2" value="9">
+                      <input type="radio" id="js" name="js2" value="0">
                       <label for="js">&lt;js&gt;</label>
                     </div>
                   </div> <!-- end question 2 -->
@@ -73,15 +72,15 @@
                   <div class="question card d-block w-50"> <!-- question 3 -->
                     <label for="js3">3. Where is the correct place to insert a JavaScript?</label>
                     <div>
-                      <input type="radio" id="head-section" name="js3" value="9">
+                      <input type="radio" id="head-section" name="js3" value="0">
                       <label for="head-section">The &lt;head&gt; section</label>
                     </div>
                     <div>
-                      <input type="radio" id="both-section" name="js3" value="1">
+                      <input type="radio" id="both-section" name="js3" value="20">
                       <label for="both-section">Both the &lt;head&gt; and the &lt;body&gt; are correct</label>
                     </div>
                     <div>
-                      <input type="radio" id="body-section" name="js3" value="9">
+                      <input type="radio" id="body-section" name="js3" value="0">
                       <label for="body-section">The &lt;body&gt; section</label>
                     </div>
                   </div> <!-- end question 3 -->
@@ -91,15 +90,15 @@
                   <div class="question card d-block w-50"> <!-- question 4 -->
                     <label for="js4">4. How do you call a function named "myFunction"?</label>
                     <div>
-                      <input type="radio" id="function-one" name="js4" value="1">
+                      <input type="radio" id="function-one" name="js4" value="20">
                       <label for="function-one">myFunction();</label>
                     </div>
                     <div>
-                      <input type="radio" id="function-two" name="js4" value="9">
+                      <input type="radio" id="function-two" name="js4" value="0">
                       <label for="function-two">call myFunction();</label>
                     </div>
                     <div>
-                      <input type="radio" id="function-three" name="js4" value="9">
+                      <input type="radio" id="function-three" name="js4" value="0">
                       <label for="function-three">call function myFunction();</label>
                     </div>
                   </div> <!-- end question 4 -->
@@ -109,15 +108,15 @@
                   <div class="question card d-block w-50"> <!-- question 5 -->
                     <label for="js5">5. What is the correct way to write a JavaScript array?</label>
                     <div>
-                      <input type="radio" id="array-one" name="js5" value="9">
+                      <input type="radio" id="array-one" name="js5" value="0">
                       <label for="array-one">var colors = "red", "green", "blue";</label>
                     </div>
                     <div>
-                      <input type="radio" id="array-two" name="js5" value="9">
+                      <input type="radio" id="array-two" name="js5" value="0">
                       <label for="array-two">var colors = (1:"red", 2:"green", 3:"blue");</label>
                     </div>
                     <div>
-                      <input type="radio" id="array-three" name="js5" value="1">
+                      <input type="radio" id="array-three" name="js5" value="20">
                       <label for="array-three">var colors = ["red", "green", "blue"];</label>
                     </div>
                   </div> <!-- end question 5 -->
@@ -148,9 +147,6 @@
               <button class="bg-success" type="submit" name="button">SCORE!</button>
               <button class="bg-info" type="button" name="button" onclick="reload();">RELOAD</button>
             </div>
-
-
-
            </form>
 
 
@@ -161,8 +157,6 @@
            </div>
 
            <p class="copyright jumbotron">Copyright© 2018 <span class="copyname">nignanthomas</span> <img src="images/rolling-cat.gif" alt="rolling cat"> </p>
-
-
 
          </div>  <!--End div col -->
         </div>     <!--End div row -->
